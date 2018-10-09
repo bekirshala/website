@@ -1,0 +1,94 @@
+/* Section paddings */
+
+.section-padding {
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+
+/* introduction*/
+
+.fintroduction p {
+    font-size: 1.25em;
+    line-height: 1.6;
+}
+
+.introduction h6 {
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+}
+
+/* Description */
+
+.description {
+    background: #F3F3F3;
+}
+
+.desc-text {
+    padding: 5em 3em 5em;
+}
+
+.description img,
+.showcase img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.description .col-md-6 {
+    padding: 0;
+}
+
+/* Process */
+.process .row {
+    padding-top: 30px;
+}
+
+/* Showcase */
+
+.showcase {
+    background: #F3F3F3;
+}
+
+.showcase .col-md-6 {
+    padding: 0;
+}
+
+/* Footer */
+footer {
+    padding: 1em 0 1em;
+}
+
+footer ul {
+    list-style-type: none;
+    text-align: center;
+    padding: .8em 0;
+}
+
+footer ul li {
+    padding: 0 .85em;
+    display: inline-block;
+}
+
+@media (max-width: 767px) {
+    .hero-contain {
+        padding-top: 8em !important;
+    }
+
+    .hero-contain h5 {
+        font-size: 16px;
+    }
+
+    .section-padding {
+        padding-top: 4em;
+        padding-bottom: 4em;
+    }
+
+    .desc-text {
+        padding: 5em .8em 5em;
+    }
+
+    footer ul li {
+        padding: 0 .2em;
+    }
+}
